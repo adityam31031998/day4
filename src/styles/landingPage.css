@@ -1,0 +1,46 @@
+.landingPage {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgb(177, 177, 120);
+}
+
+.landingPage .linkOption {
+    padding: 10px;
+    background-color: turquoise;
+    width: 10%;
+    height: 15%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    /* flex-direction: row; */
+
+}
+
+.linkOption a {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 30%;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adminLogin{
+    
+}

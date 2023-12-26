@@ -1,0 +1,42 @@
+.readbook {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #EED971;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #FFA351;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.bookimage{
+    height: 70%;
+}
+.bookDetailsContent {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around
+}
+
+.bookDetailsContent button {
+    height: 30%;
+}
+
+.readMoreContent {
+    height: 200px;
+    width: 300px;
+    overflow: scroll;
+}

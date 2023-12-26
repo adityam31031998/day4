@@ -1,0 +1,41 @@
+.adminLogin {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: wheat;
+}
+
+.adminDiv {
+    width: 100dvw;
+    height: 20dvh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.adminInput{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    align-content: center;
+    justify-items: ;
+    flex-direction: row;
+    justify-content: center ;
+}
+
+.adminTitle {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 20%;
+}
