@@ -14,7 +14,7 @@ const ReadBook = ({ cart, setCart }) => {
 
   function handleClick() {
     setCart([...cart, book]);
-  console.log("added book successfully");
+  alert("added book successfully");
   }
 
   useEffect(() => {
