@@ -8,7 +8,6 @@ const Favourities = ({ cart, setCart }) => {
       <h1>
         {console.log(cart.length)}
         <div className="body1">
-        <div class="container">
 
             { cart.length ? cart.map((data) => (
           <div class="container">
@@ -38,7 +37,6 @@ const Favourities = ({ cart, setCart }) => {
             
           </div>
             )) : <h1>You have not saved Book</h1>} 
-        </div>
         </div>
       </h1>
     </div>
