@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import "../styles/readBooks.css";
+import fav from  "./images/fav.png"
 const ReadBook = ({ cart, setCart }) => {
   let [book, setBook] = useState([]);
   const [showMore, setShowMore] = useState(true);
@@ -13,7 +14,7 @@ const ReadBook = ({ cart, setCart }) => {
 
   function handleClick() {
     setCart([...cart, book]);
-    alert(`${cart}`)
+  console.log("added book successfully");
   }
 
   useEffect(() => {
@@ -40,6 +41,7 @@ const ReadBook = ({ cart, setCart }) => {
               ) : (
                 <>
                 <button class="contact" onClick={handleClick}>
+                  <img src={fav} width={"20px"}  style={{"float":"left"}} alt="" />
                   Fav
                 </button>
                 <button class="download" onClick={() => navigate("/userPortal/books")}>Back</button>

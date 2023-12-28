@@ -29,6 +29,7 @@ const Favourities = ({ cart, setCart }) => {
                     >
                       ReadMore
                     </button>
+                    
                   </div>
                 </div>
               </div>
