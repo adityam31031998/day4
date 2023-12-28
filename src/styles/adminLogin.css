@@ -106,8 +106,9 @@ form {
     z-index: 1;
 
 }
-.adminInputpicss{
-    z-index: 1;
+.adminInputpicsss{
+    width: 100px;
+    margin-top: 10px;
 }
 .adminInput {
     display: flex;
@@ -152,6 +153,7 @@ form {
 }
 
 .adminTitle {
+    
     text-align: center;
     width: 100%;
     display: flex;

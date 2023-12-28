@@ -18,7 +18,6 @@ const UserPortal = () => {
         <Route element={<ReadBook setCart={setCart} cart={cart} />} path="/books/:id" />
         <Route element={<Favourities setCart={setCart} cart={cart} />} path="/fav" />
       </Routes>
-      <h1>Home</h1>
     </div>
   );
 };

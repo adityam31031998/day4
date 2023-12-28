@@ -36,7 +36,7 @@ const AdminLogin = () => {
           <img className="adminProfilepic" src={adminProfilepic} alt="" />
         </div>
         <div className="adminRight">
-          <img src={adminInputpic} className="adminInputpicss" alt="" />
+          <img src={adminInputpic} className="adminInputpicsss" alt="" />
           <form onSubmit={handleSubmit}>
             <div className="adminInput">
               <img src={adminusericon} alt="" />

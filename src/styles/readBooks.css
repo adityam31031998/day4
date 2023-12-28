@@ -1,4 +1,4 @@
-.readbook {
+/* .readbook {
     width: 100dvw;
     height: 100dvh;
     background-color: #EED971;
@@ -39,4 +39,113 @@
     height: 200px;
     width: 300px;
     overflow: scroll;
+} */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+
+    
+
+.body1{
+    font-family: arial;
+    box-sizing:border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: row;
+    overflow: scroll;
+	height: 100vh;
+	background: linear-gradient(to right, #96c93d, #00b09b);
 }
+
+.container{
+    /* margin: 30px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #000;
+	min-height: 350px;
+	margin: 30px;
+	max-width: 1000px;
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255, 255, 255, 0.25);
+    z-index: 10;
+	backdrop-filter: blur(25px);
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.photo img{
+	height: 300px;
+	border: 5px solid rgba(255,255,255,0.5);
+}
+.photo{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding: 20px;
+}
+.social-icons{
+	display: inline-flex;
+	justify-content: space-around;
+	align-content: space-between;
+	width: 100%;
+	float: left;
+	padding: 10px;
+}
+.share-btn {
+	cursor: pointer;
+	font-size: 30px;
+	color: #000;
+}
+.buttons{
+	display: inline-flex;
+	justify-content: space-around;
+	align-content: space-between;
+	width: 100%;
+	float: left;
+	padding: 20px;
+}
+
+.contact, .download{
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	width: 150px;
+    cursor: pointer;
+    padding: 15px;
+    margin: 2px;
+    font-weight: 900;
+    color: #000;
+    cursor: pointer;
+    background: rgba(255,255,255,.3);
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.contact:hover, 
+.download:hover{
+	background: rgba(255,255,255,.8);
+}
+.right{
+	width: 60%;
+	border-radius: 20px;
+	padding: 25px;
+	float: right;
+	text-align: justify;
+    text-justify: inter-word;
+    background: rgba(255,255,255,.3);
+}
+
+
+.credit{
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.credit a{
+    text-decoration: none;
+    color: #072f5f;
+    font-weight: bold;
+}
+
