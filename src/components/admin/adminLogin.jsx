@@ -1,6 +1,12 @@
 import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../styles/adminLogin.css";
+import loginimg from "../images/loginbg.png";
+import adminProfilepic from "../images/adminpic.jpg";
+import adminusericon from "../images/adminicon.png";
+import adminInputpic from "../images/mobile.png";
+import adminKey from "../images/key.png";
+import adminLoginSubmit from "../images/login.png";
 const AdminLogin = () => {
   let navigate = useNavigate();
   const adminName = useRef();
@@ -22,27 +28,36 @@ const AdminLogin = () => {
   }
   return (
     <div className="adminLogin">
-          <div className="adminDiv">
-      <h1 className="adminTitle">Login Admin</h1>
-      <form onSubmit={handleSubmit}>
-        <div className="adminInput">
+      <div className="adminDiv">
+        <h1 className="adminTitle">Admin  Login</h1>
+        <div className="adminLeft">
+          <img src={loginimg} alt="" />
+          <p>Welcome Admin</p>
+          <img className="adminProfilepic" src={adminProfilepic} alt="" />
+        </div>
+        <div className="adminRight">
+          <img src={adminInputpic} className="adminInputpicss" alt="" />
+          <form onSubmit={handleSubmit}>
+            <div className="adminInput">
+              <img src={adminusericon} alt="" />
+              <input type="email" placeholder="Email address" ref={adminName} />
 
-            <input
-              type="email"
-              placeholder="Enter the Email address"
-              ref={adminName}
-            />
-            <input
-              type="password"
-              ref={adminPassword}
-              placeholder="Enter the password"
-            />
-          <div className="logBtn">
-            <button>Login</button>
-          </div>
+              <img className="adminKeys" src={adminKey} alt="" />
+              <input
+                type="password"
+                ref={adminPassword}
+                placeholder="password"
+              />
+              <div className="logBtn">
+                <button>
+                  <img className="adminLoginSubmits" src="" alt="" />
+                  Login
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
-      </form>
-        </div>
+      </div>
     </div>
   );
 };
