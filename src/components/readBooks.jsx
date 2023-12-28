@@ -55,10 +55,10 @@ const ReadBook = ({ cart, setCart }) => {
         {showMore ? <p>{book.longDescription}</p> : <></>}
           {showLess ? <p>{book.shortDescription}</p> : <></>}
           <button class="download" onClick={() => setShowMore(!showMore)}>
-            longDescription more
+            LongDescription more
           </button>
           <button class="contact" onClick={() => setShowLess(!showLess) } >
-            shortDescription Less
+            ShortDescription Less
           </button>
         </div>
       </div>

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/adminBook.css";
 import { useLocation } from "react-router-dom";
 import readMoreIcon from "./images/readMore.png";
+import searchIcon from "./images/search.png"
 const Books = () => {
   var [books, setBooks] = useState([]);
   const nav = useLocation();
@@ -29,7 +30,12 @@ const Books = () => {
 
   return (
     <div className="Books">
+      <div className="">
+
       <h1>BooksCollection</h1>
+      <input className="serachBook" type="text" placeholder="SearchBooks"/>
+      <img src={searchIcon} className="searchBookIoncs" alt="" />
+      </div>
       <div className="bookCards">
         {books.map((item, index) => (
           <p key={index}>

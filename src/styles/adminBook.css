@@ -8,7 +8,22 @@
     /* background-color: #d4d4dc; */
 
 }
-
+.serachBook{
+    position: absolute;
+    right: 0;
+    height: 5%;
+    width: 15%;
+    font-size: 1.5rem;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+}
+.searchBookIoncs{
+    width: 40px;
+    position: absolute;
+    top: 14.5%;
+    right: 0;
+}
 .bookCards .booksCard {
     display: flex;
     margin: 20px;
